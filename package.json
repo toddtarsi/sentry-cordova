@@ -24,11 +24,6 @@
   ],
   "description": "Official Sentry SDK for Cordova",
   "dependencies": {
-    "@sentry/browser": "5.x.x",
-    "@sentry/core": "5.x.x",
-    "@sentry/minimal": "5.x.x",
-    "@sentry/types": "5.x.x",
-    "@sentry/utils": "5.x.x",
     "@sentry/wizard": "^1.0.0"
   },
   "devDependencies": {
@@ -55,6 +50,13 @@
     "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.6.3",
     "vrsource-tslint-rules": "^6.0.0"
+  },
+  "peerDependencies": {
+    "@sentry/browser": "5.x.x",
+    "@sentry/core": "5.x.x",
+    "@sentry/minimal": "5.x.x",
+    "@sentry/types": "5.x.x",
+    "@sentry/utils": "5.x.x"
   },
   "scripts": {
     "build:bundle": "rollup --config",
